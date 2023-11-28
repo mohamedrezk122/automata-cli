@@ -4,7 +4,6 @@
 
 ![sample](./screenshots/dummy-machine.png)
 
-This project originated from the need of   
 
 ## Automata language structure
 
