@@ -1,0 +1,4 @@
+include LICENSE README.md config.yaml
+include examples/*
+include screenshots/*
+

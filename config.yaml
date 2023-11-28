@@ -1,0 +1,32 @@
+# numeric and bool values shall be wrapped inside quotes
+renderer: 
+  engine    : dot        
+  format    : png                    # default format 
+  encoding  : utf-8 
+  
+graph:
+  smoothing : "40"   
+  beautify  : "true"
+  rankdir   : LR                    # left to right mannar, can be TD (top down)
+  splines   : "true"                  # allow nice edge routing 
+  fontname  : CMU Serif           
+  fontsize  : "17"
+  labelloc  : c                     # title alignment 
+  center    : "true"                  # force centering 
+  size      : "7.75,10.25"            # canvas size 
+
+node:
+  fontname  : CMU Serif           
+  fontsize  : "14"
+  fontcolor : black                  # text color in nodes 
+  color     : black                  # border color
+  style     : ""                     # no fill "" , can be "filled"
+  fillcolor : white                  # if style = filled
+  nodesep   : "0.75"
+  ranksep   : "0.75"
+
+edge:
+  fontname  : CMU Serif
+  arrowhead : open                  # shape of arrow 
+  arrowsize : "1.0"                   # size of arrow float > 0
+  color     : black 

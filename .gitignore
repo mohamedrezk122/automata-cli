@@ -1,0 +1,8 @@
+__pycache__
+*/__pycache__
+test*
+*.tex
+*.gv*
+dist
+build
+*.egg-info
